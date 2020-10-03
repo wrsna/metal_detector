@@ -1,0 +1,129 @@
+(/opt/eagle-G/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../metal detektor/metal detector proto1.brd)
+(Current profile is /opt/eagle-G/profiles/mach.pp  )
+(This file generated 29. 10. 19 20:07)
+(Settings from pcb-machine.h)
+(  Tool Size)
+(0.1000  )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(50.0000 	5.0000  	-0.2000 	-2.0000 )
+(spindle on time = 1.0000)
+(milling depth = -0.2500)
+(text depth = -0.1200)
+(tool change at 0.0000  150.0000 100.0000 )
+(feed rate xy = F200   )
+(feed rate z  = F250   )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0200)
+(isolate max = 0.5080)
+(isolate step = 0.1270)
+(Generated top outlines, top drill, bottom outlines, bottom drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01 | 3.200mm 0.1260in | 0.0000in | 0.0000in |       0 )
+( T02 | 0.381mm 0.0150in | 0.0000in | 0.0000in |       0 )
+( T03 | 0.406mm 0.0160in | 0.0000in | 0.0000in |       0 )
+( T04 | 0.813mm 0.0320in | 0.0000in | 0.0000in |       0 )
+( T05 | 0.914mm 0.0360in | 0.0000in | 0.0000in |       0 )
+( T06 | 1.000mm 0.0394in | 0.0000in | 0.0000in |       0 )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+M05
+G00 Z100.0000 
+G00 X0.0000  Y150.0000 
+M06 T01  ; 3.2000  
+G01 Z0.0000  F250   
+M06 T01  ; 3.2000  
+G00 Z5.0000  
+M03
+G04 P1.000000
+G82 X4.0640  Y50.8000 Z-2.0000 F250   R5.0000  P1.000000
+G82 X91.1860 Y27.1780 
+G82 X18.2880 Y4.0640  
+G82 X29.8450 Y27.1780 
+M05
+G00 Z100.0000 
+M06 T02  ; 0.3810  
+G01 Z0.0000  F250   
+M06 T02  ; 0.3810  
+G00 Z5.0000  
+M03
+G04 P1.000000
+G82 X23.4950 Y27.1780 Z-2.0000 F250   R5.0000  P1.000000
+M05
+G00 Z100.0000 
+M06 T03  ; 0.4064  
+G01 Z0.0000  F250   
+M06 T03  ; 0.4064  
+G00 Z5.0000  
+M03
+G04 P1.000000
+G82 X73.7870 Y27.1780 Z-2.0000 F250   R5.0000  P1.000000
+M05
+G00 Z100.0000 
+M06 T04  ; 0.8128  
+G01 Z0.0000  F250   
+M06 T04  ; 0.8128  
+G00 Z5.0000  
+M03
+G04 P1.000000
+G82 X4.3180  Y40.6400 Z-2.0000 F250   R5.0000  P1.000000
+G82 X6.8580  Y40.6400 
+G82 X9.3980  Y40.6400 
+M05
+G00 Z100.0000 
+M06 T05  ; 0.9144  
+G01 Z0.0000  F250   
+M06 T05  ; 0.9144  
+G00 Z5.0000  
+M03
+G04 P1.000000
+G82 X4.3688  Y7.6200  Z-2.0000 F250   R5.0000  P1.000000
+G82 X10.8712 Y7.6200  
+M05
+G00 Z100.0000 
+M06 T06  ; 1.0000  
+G01 Z0.0000  F250   
+M06 T06  ; 1.0000  
+G00 Z5.0000  
+M03
+G04 P1.000000
+G82 X3.1750  Y35.0520 Z-2.0000 F250   R5.0000  P1.000000
+G82 X3.1750  Y27.1780 
+G82 X4.4450  Y17.0180 
+G82 X4.4450  Y19.5580 
+G82 X6.3500  Y27.1780 
+G82 X10.4140 Y52.9590 
+G82 X10.4140 Y19.5580 
+G82 X10.4140 Y27.1780 
+G82 X10.6680 Y44.8310 
+G82 X10.7950 Y35.0520 
+G82 X12.3190 Y29.9720 
+G82 X12.9540 Y52.9590 
+G82 X13.2080 Y40.7670 
+G82 X13.3350 Y44.5770 
+G82 X13.4620 Y34.9250 
+G82 X14.0970 Y49.0220 
+G82 X14.0970 Y13.9700 
+G82 X14.0970 Y21.5900 
+G82 X16.0020 Y34.9250 
+G82 X16.6370 Y13.9700 
+G82 X16.6370 Y21.5900 
+G82 X17.3990 Y29.9720 
+G82 X18.2880 Y40.7670 
+G82 X18.4150 Y44.5770 
+G82 X18.5420 Y34.9250 
+G82 X19.1770 Y49.0220 
+G82 X19.1770 Y13.9700 
+G82 X19.1770 Y21.5900 
+G82 X3.0480  Y44.8310 
+T01 
+G00 Z50.0000 
+M05
+M02

@@ -3,3 +3,6 @@ This is project created for summer camp on our faculty for kids. Other members o
 
 
  Files are mostly created with Eagle software it is more or less schematic and board view and backup files
+
+
+some of the files are gerber files for manufactoring.
